@@ -113,6 +113,11 @@
     text-align: center;
     width: 100%;
 }
+.inputcss {
+    width: 90%;
+    border-radius: 13px;
+    height: 40px;
+}
 .linha {
     display: flex;
     flex-flow: row wrap;
