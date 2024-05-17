@@ -9,7 +9,13 @@
     right: 0;
     position: fixed;
 }
-
+.subtitulo3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Lato";
+    font-weight: bold;
+}
     .linha2 {
     display: flex;
 }
