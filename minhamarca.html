@@ -13,7 +13,9 @@
 
 <body style="margin: 0px">
     <header class="cabecalho linha" style="top: 0px">
-          if (isAuthenticated) {
+          <script>
+            if (isAuthenticated) {
+                document.write(`
             <a class="coluna-20">
                 <span class="subtitulo3">{{ Str::upper(\Illuminate\Support\Facades\Auth::user()->name) }}</span>
             </a>
@@ -26,7 +28,9 @@
             <a class="coluna-35" href="/cadastrar#paracadastro">
                 <span class="subtitulo3">Cadastrar</span>
             </a>
+                `);
             } else {
+                document.write(`
         <a class="coluna-15" href="/">
             <span class="subtitulo3">Home</span>
         </a>
