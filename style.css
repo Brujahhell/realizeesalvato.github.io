@@ -273,6 +273,29 @@
     padding-bottom: 2px;
     margin-bottom: 2%;
     text-align: center;
-
+}
+.titulomarca {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 10px;
+    padding-top: 30px;
+}
+.segmentomarca{
+    font-size: 30px;
+    text-align: center;
+    color: #329AA6;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 15px;
+}
+.resumomarca{
+    font-size: 30px;
+    text-align: center;
+    color: #329AA6;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 15px 0px 0px 15px;
 }
     
