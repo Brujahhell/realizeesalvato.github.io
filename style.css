@@ -1,5 +1,5 @@
  .section1 {
-    width: 1831px;
+    width: 100%;
     background-image: url('https://i.imgur.com/jQtw0Mi.png');
 }
 .cabecalho {
@@ -76,7 +76,7 @@
     font-family: "Lato";
 }
     .section2 {
-    width: 1831px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 
@@ -115,7 +115,7 @@
     text-align: center;
 }
     .sectionform {
-    width: 1831px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -165,13 +165,13 @@
     border-radius: 15px;
 }
     .section3 {
-    width: 1831px;
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
     background-image: url('https://i.imgur.com/cvPT4Cw.png');
 }
     .section4 {
-    width: 1831px;
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
 }
@@ -193,7 +193,7 @@
     padding: 10px;
 }
     .section5 {
-    width: 1831px;
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
 }
@@ -220,7 +220,7 @@
     height: 180px;
 }
     .section6 {
-    width: 1831px;
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
     background-image: url('https://i.imgur.com/ieIK7VX.png');
