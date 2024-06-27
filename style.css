@@ -174,10 +174,10 @@
 
 @media (max-width: 768px) {
 
-    .section1 {
-        width: 100%;
-        background-image: url('/assets/imagens/fundo.png');
-    }
+ .section1 {
+    width: 100%;
+    background-image: url('https://i.imgur.com/jQtw0Mi.png');
+}
 
     .section2 {
         width: 100%;
@@ -193,12 +193,12 @@
 
     }
 
-    .section3 {
-        width: 100%;
-        max-width: 100%;
-        max-height: 100%;
-        background-image: url('/assets/imagens/fundoempresa.png');
-    }
+.section3 {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url('https://i.imgur.com/cvPT4Cw.png');
+}
 
     .section4 {
         width: 100%;
@@ -213,12 +213,12 @@
 
     }
 
-    .section6 {
-        width: 100%;
-        max-width: 100%;
-        max-height: 70%;
-        background-image: url('/assets/imagens/Sem.png');
-    }
+.section6 {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url('https://i.imgur.com/ieIK7VX.png');
+}
 
     .coluna-10 {
         text-align: center;
