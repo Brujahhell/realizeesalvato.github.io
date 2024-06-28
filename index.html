@@ -8,12 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
-    
+    <script>
+        // Variável que simula se o usuário está autenticado ou não
+        const isAuthenticated = true; // Mude para false para testar a outra condição
+        const userName = "GITHUB TESTER"; // Nome do usuário autenticado
+    </script>
 </head>
 <body style="margin: 0px">
 <section class="section1">
-   <header class="cabecalho linha">
-       <script>
+     <header class="cabecalho linha">
+        <script>
             if (isAuthenticated) {
                 document.write(`
                     <a class="coluna-20">
@@ -46,7 +50,7 @@
                     <a class="coluna-15" href="#formulariocentralizado">
                         <span class="subtitulo3">Formulário</span>
                     </a>
-                    <a class="coluna-15" href="/">
+                    <a class="coluna-15" href="/logout">
                         <span class="subtitulo3">Sair</span>
                     </a>
                 `);
