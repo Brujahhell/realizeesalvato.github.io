@@ -13,6 +13,24 @@
 <body style="margin: 0px">
 <section class="section1">
    <header class="cabecalho linha">
+       <script>
+            if (isAuthenticated) {
+                document.write(`
+                    <a class="coluna-20">
+                        <span class="subtitulo3">${userName.toUpperCase()}</span>
+                    </a>
+                    <span>
+                        <h3 style="color: azure; margin-top: 10px;"></h3>
+                    </span>
+                `);
+            } else {
+                document.write(`
+                    <a class="coluna-35" href="/cadastrar#paracadastro">
+                        <span class="subtitulo3">Cadastrar</span>
+                    </a>
+                `);
+            }
+        </script>
         <a class="coluna-15" href="https://brujahhell.github.io/realizeesalvato.github.io/">
             <span class="subtitulo3">Home</span>
         </a>
