@@ -12,7 +12,35 @@
 </head>
 <body style="margin: 0px">
 <section class="section1">
-  
+   <header class="cabecalho linha">
+        <a class="coluna-15" href="https://brujahhell.github.io/realizeesalvato.github.io/">
+            <span class="subtitulo3">Home</span>
+        </a>
+        <a class="coluna-15" href="#rodapé">
+            <span class="subtitulo3">Contato</span>
+        </a>
+        <script>
+            if (isAuthenticated) {
+                document.write(`
+                    <a class="coluna-15" target="_blank" href="https://brujahhell.github.io/realizeesalvato.github.io/minhamarca">
+                        <span class="subtitulo3">Minha Marca</span>
+                    </a>
+                    <a class="coluna-15" href="#formulariocentralizado">
+                        <span class="subtitulo3">Formulário</span>
+                    </a>
+                    <a class="coluna-15" href="/">
+                        <span class="subtitulo3">Sair</span>
+                    </a>
+                `);
+            } else {
+                document.write(`
+                    <a class="coluna-35" href="/cadastrar#paralogin">
+                        <span class="subtitulo3">Login</span>
+                    </a>
+                `);
+            }
+        </script>
+    </header>
     <div class="linha2">
         <div class="coluna-50">
             <div><img class="logors" src="https://i.imgur.com/4b57OJT.png"></div>
