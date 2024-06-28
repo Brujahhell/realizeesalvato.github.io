@@ -637,7 +637,8 @@ input:-moz-placeholder {
         font-weight: bold;
     }
  .subtitulo3 {
-    font-size: 10px;
+    font-size: 100%;
+    padding: 2%
     text-align: center;
     color: white;
     font-family: "Lato";
