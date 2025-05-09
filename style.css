@@ -175,6 +175,7 @@
 @media (max-width: 1024px) {
 
  .section1 {
+    max-width: 100%;
     width: 100%;
     background-image: url('https://i.imgur.com/jQtw0Mi.png');
 }
