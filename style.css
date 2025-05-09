@@ -282,6 +282,9 @@
         text-align: center;
         width: 100%;
     }
+    .linha {
+        display: block !important;
+    }
     .linha2 {
         display: inline;
     }
