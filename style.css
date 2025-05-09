@@ -283,7 +283,9 @@
         width: 100%;
     }
     .linha {
-        display: block !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
     }
     .linha2 {
         display: inline;
