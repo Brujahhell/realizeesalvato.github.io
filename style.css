@@ -604,7 +604,7 @@ input:-moz-placeholder {
     margin: 15px 0px 0px 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .logors{
         width: 80%;
         padding: 2%;
